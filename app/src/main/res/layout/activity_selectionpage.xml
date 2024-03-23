@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+
+    android:background="@drawable/im2"
+    tools:context=".Selectionpage">
+
+
+    <Button
+        android:layout_marginLeft="180px"
+        android:layout_marginTop="500px"
+        android:layout_centerHorizontal="true"
+        android:layout_width="430px"
+        android:textStyle="italic"
+        android:textSize="25px"
+        android:background="#403002"
+        android:layout_height="100px"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:id="@+id/p1"
+        android:text="PLAYER VS COMPUTER\n🥷🆚💻"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="271dp"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:layout_marginLeft="180px"
+        android:layout_below="@+id/p1"
+        android:layout_marginTop="200px"
+        android:layout_width="430px"
+        android:textStyle="italic"
+        android:background="#403002"
+        android:layout_centerHorizontal="true"
+        android:textSize="25px"
+        android:layout_height="100px"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:id="@+id/p2"
+        android:text="PLAYER VS PLAYER\n🥷vs🥷"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="271dp"
+        tools:ignore="MissingConstraints" />
+
+
+
+
+</RelativeLayout>

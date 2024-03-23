@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/img_1"
+    tools:context=".Plvscs">
+
+    <Button
+        android:id="@+id/buttonRock"
+        android:layout_width="250px"
+        android:textStyle="italic"
+        android:textSize="35px"
+        android:layout_height="100px"
+        android:text="Rock\n🪨"
+        android:background="#9BEFE8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200px"/>
+
+    <Button
+        android:id="@+id/buttonPaper"
+        android:layout_width="250px"
+        android:layout_height="100px"
+        android:text="Paper\n📜"
+        android:textStyle="italic"
+        android:background="#9BEFE8"
+        android:textSize="35px"
+        android:layout_below="@id/buttonRock"
+        android:layout_marginTop="120px"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/buttonScissors"
+        android:theme="@style/Animation.Design.BottomSheetDialog"
+        android:layout_width="250px"
+        android:layout_height="100px"
+        android:text="Scissors\n✂️"
+        android:textStyle="italic"
+        android:background="#9BEFE8"
+        android:textSize="35px"
+        android:layout_below="@id/buttonPaper"
+        android:layout_marginTop="120px"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/textResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:layout_below="@id/buttonScissors"
+        android:layout_marginTop="200px"
+        android:layout_marginLeft="200px"
+
+        android:text="Result"
+        android:textColor="@color/black"
+        />
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/img"
+    tools:context=".Plvspl">
+
+
+    <Button
+        android:id="@+id/player1Button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="#E3C3C3"
+        android:layout_centerHorizontal="true"
+        android:text="Player 1\n🥷"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="8dp"
+        />
+
+    <Button
+        android:id="@+id/player2Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="#E3C3C3"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="8dp"
+        android:text="Player 2\n🥷" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/player1Button"
+        android:layout_marginTop="250dp"
+        android:layout_centerHorizontal="true"
+        android:background="#E3C3C3"
+        android:layout_marginLeft="210dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:text="Result"
+        />
+
+    <TextView
+        android:id="@+id/playerMovesTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/player2Button"
+        android:layout_marginTop="16dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="RESULT : "
+        />
+</RelativeLayout>
